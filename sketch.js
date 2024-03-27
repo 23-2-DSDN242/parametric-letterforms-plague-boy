@@ -13,28 +13,58 @@ const canvasHeight = 500;
  */
 
 const letterA = {
-  "size": 80,
-  "offsetx": 0,
-  "offsety": 35
+  "offsetx1": 50,
+  "offsety1": 200,
+  "offsetx2": -50,
+  "offsety2": 100,
+  "offsetx3": 50,
+  "offsety3": 200,
+  "offsetx4": -50,
+  "offsety4": 100, //100 Aligns with bottom of the Square
 }
 
 const letterB = {
-  "size": 150,
-  "offsetx": 0,
-  "offsety": -145
+  "offsetx1": 100,
+  "offsety1": 200,
+  "offsetx2": 100,
+  "offsety2": -75,
+  "offsetx3": 125,
+  "offsety3": 325,
+  "offsetx4": 125,
+  "offsety4": 100,
 }
 
 const letterC = {
-  "size": 100,
-  "offsetx": 30,
-  "offsety": 0
+  "offsetx1": 125,
+  "offsety1": 200,
+  "offsetx2": 125,
+  "offsety2": -125,
+  "offsetx3": 125,
+  "offsety3": 425,
+  "offsetx4": 125,
+  "offsety4": 100,
 }
 
-const backgroundColor  = "#acf2e7";
+const backgroundColor  = "#2e2e2e";
 
 const darkGreen  = "#26b29d";
 const lightGreen  = "#30dfc4";
-const strokeColor  = "#0a2d27";
+const strokeColor  = "#ffffff";
+
+const red = "#c91e1e";
+const orange = "#c96b1e";
+const yellow = "#c9a11e";
+const green = "#74c91e";
+const aqua = "#1ec971";
+const liteblue = "#1ec9b8";
+const trueblue = "#1e68c9";
+const darkblue = "#1e27c9";
+const bluepurple = "#5d1ec9";
+const truepurple = "#8d1ec9";
+const pink = "#c91ec3";
+const barbiepink = "#c91e71"
+const white = "#ffffff";
+
 
 function setup () {
   // create the drawing canvas, save the canvas element
@@ -66,14 +96,46 @@ function draw () {
 function drawLetter(posx, posy, letterData) {
   // determine parameters for second circle
   let size2 = letterData["size"];
-  let pos2x = posx + letterData["offsetx"];
-  let pos2y = posy + letterData["offsety"];
+  let pos1x = posx + letterData["offsetx1"];
+  let pos1y = posy + letterData["offsety1"];
+  let pos2x = posx + letterData["offsetx2"];
+  let pos2y = posy + letterData["offsety2"];
+  let pos3x = posx + letterData["offsetx3"];
+  let pos3y = posy + letterData["offsety3"];
+  let pos4x = posx + letterData["offsetx4"];
+  let pos4y = posy + letterData["offsety4"];
+  let pos5x = posx + letterData["offsetx5"];
+  let pos5y = posy + letterData["offsety5"];
 
-  // draw two circles
-  fill(darkGreen);
-  ellipse(posx, posy, 150, 150);
-  fill(lightGreen);
-  ellipse(pos2x, pos2y, size2, size2);
+  
+
+  // Stamp Background
+  noStroke();
+  fill(red);
+  beginShape();
+    vertex(posx+50,posy-200);
+    vertex(posx-50, posy-200)
+    vertex(posx-50,posy+100);
+    vertex(posx+50,posy+100)
+  endShape(CLOSE);
+
+  stroke("#ffffff");
+  noFill();
+  beginShape();
+    vertex(pos1x-100,pos1y-400);
+    vertex(pos1x,pos1y-400);
+    vertex(pos2x,pos2y);
+    vertex(pos2x-100,pos2y);
+  endShape(CLOSE);
+
+  noFill();
+  beginShape();
+    vertex(pos3x-100,pos3y-400);
+    vertex(pos3x,pos3y-400);
+    vertex(pos4x,pos4y);
+    vertex(pos4x-100,pos4y);
+  endShape(CLOSE);
+
 }
 
 function keyTyped() {
