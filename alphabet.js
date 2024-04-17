@@ -49,6 +49,9 @@ function draw () {
   // draw the letters A, B, C from saved data
   push();
   scale(0.5);
+  drawLetter(center_x - 250, center_y, letterA);
+  drawLetter(center_x      , center_y, letterB);
+  drawLetter(center_x + 250, center_y, letterC);
 
   // constants
   const left_margin = 40;

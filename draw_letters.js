@@ -15,21 +15,45 @@ const strokeColor  = "#0a2d27";
  * following bounding box guideline:
  * from (0,0) to (100, 200)
  */
-function drawLetter(letterData) {
-  // color/stroke setup
-  stroke(strokeColor);
-  strokeWeight(4);
-
-  // determine parameters for second circle
+function drawLetter(posx, posy,letterData) {
   let size2 = letterData["size"];
-  let pos2x = 50  + letterData["offsetx"];
-  let pos2y = 150 + letterData["offsety"];
+  let pos1x = posx + letterData["offsetx1"];
+  let pos1y = posy + letterData["offsety1"];
+  let pos2x = posx + letterData["offsetx2"];
+  let pos2y = posy + letterData["offsety2"];
+  let pos3x = posx + letterData["offsetx3"];
+  let pos3y = posy + letterData["offsety3"];
+  let pos4x = posx + letterData["offsetx4"];
+  let pos4y = posy + letterData["offsety4"];
+  let pos5x = posx + letterData["offsetx5"];
+  let pos5y = posy + letterData["offsety5"];
 
-  // draw two circles
-  fill(darkGreen);
-  ellipse(50, 150, 75, 75);
-  fill(lightGreen);
-  ellipse(pos2x, pos2y, size2, size2);
+  // Square Background
+  noStroke();
+  fill(red);
+  beginShape();
+    vertex(posx+50,posy-200);
+    vertex(posx-50, posy-200)
+    vertex(posx-50,posy+100);
+    vertex(posx+50,posy+100)
+  endShape(CLOSE);
+
+  stroke("#ffffff");
+  noFill();
+  beginShape();
+    vertex(pos1x-100,pos1y-400);
+    vertex(pos1x,pos1y-400);
+    vertex(pos2x,pos2y);
+    vertex(pos2x-100,pos2y);
+  endShape(CLOSE);
+
+  noFill();
+  beginShape();
+    vertex(pos3x-100,pos3y-400);
+    vertex(pos3x,pos3y-400);
+    vertex(pos4x,pos4y);
+    vertex(pos4x-100,pos4y);
+  endShape(CLOSE);
 }
 
 function interpolate_letter(percent, oldObj, newObj) {
