@@ -109,7 +109,7 @@ function drawLetter(posx, posy, letterData) {
 
   
 
-  // Stamp Background
+  // Red Square Const.
   noStroke();
   fill(red);
   beginShape();
