@@ -45,10 +45,10 @@ const white = "#ffffff";
   noStroke();
   fill(red);
   beginShape();
-    vertex(25,0);
-    vertex(75,0)
-    vertex(75,200);
-    vertex(25,200)
+    vertex(pos5x+35,0);
+    vertex(pos5x+65,0)
+    vertex(pos5x+65,200);
+    vertex(pos5x+35,200)
   endShape(CLOSE);
 
   stroke("#ffffff");
@@ -56,16 +56,16 @@ const white = "#ffffff";
   noFill();
   beginShape();
     vertex(pos1x,pos1y+50);
-    vertex(pos1x+50,pos1y+50);
-    vertex(pos2x+50,pos2y+150);
+    vertex(pos1x+30,pos1y+50);
+    vertex(pos2x+30,pos2y+150);
     vertex(pos2x,pos2y+150);
   endShape(CLOSE);
 
   noFill();
   beginShape();
     vertex(pos3x,pos3y+50);
-    vertex(pos3x+50,pos3y+50);
-    vertex(pos4x+50,pos4y+150);
+    vertex(pos3x+30,pos3y+50);
+    vertex(pos4x+30,pos4y+150);
     vertex(pos4x,pos4y+150);
   endShape(CLOSE);
 }

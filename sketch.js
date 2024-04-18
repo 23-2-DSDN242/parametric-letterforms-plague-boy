@@ -119,6 +119,7 @@ function drawLetter(posx, posy, letterData) {
     vertex(posx+50,posy+100)
   endShape(CLOSE);
 
+  //White Line box 1
   stroke("#ffffff");
   noFill();
   beginShape();
@@ -128,6 +129,7 @@ function drawLetter(posx, posy, letterData) {
     vertex(pos2x-100,pos2y);
   endShape(CLOSE);
 
+  //White Line box 2
   noFill();
   beginShape();
     vertex(pos3x-100,pos3y-400);
