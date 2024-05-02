@@ -46,9 +46,12 @@ function draw () {
   let center_x = canvasWidth / 2;  
   let center_y = canvasHeight / 2;
 
-  // draw the letters A, B, C from saved data
+  // // draw the letters A, B, C from saved data
   push();
   scale(0.5);
+  // drawLetter(center_x - 250, center_y, letterA);
+  // drawLetter(center_x      , center_y, letterB);
+  // drawLetter(center_x + 250, center_y, letterC);
 
   // constants
   const left_margin = 40;

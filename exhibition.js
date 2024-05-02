@@ -14,7 +14,7 @@ const canvasHeight = 500;
 let soloCurLetter = "B";
 let soloLastLetter = "A"
 let soloPrevObj = alphabet["default"];
-let soloIsAnimating = false;
+var soloIsAnimating = false;
 let soloNumAnimationFrames = 30;
 let soloCurAnimationFrame = 0;
 
@@ -23,7 +23,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?";
 
 let chosenLetters = [];
 let chosenPrevObjs = [null, null, null, null, null, null, null, null];
-let chosenIsAnimating = [false, false, false, false, false, false, false, false];
+var chosenIsAnimating = [false, false, false, false, false, false, false, false];
 let chosenNumAnimationFrames = 30;
 let chosenCurAnimationFrame = [0, 0, 0, 0, 0, 0, 0, 0];
 let curChosenLetter = 0;
@@ -31,11 +31,12 @@ let curChosenLetter = 0;
 let lastKeyPressedTime;
 let secondsUntilSwapMode = 15;
 let lastWordSwappedTime;
-let isSwappingWords = true;
+var isSwappingWords = true;
 let secondsPerWord = 8;
 let curSwapWord = 0;
 
 var defaultSwapWords = [
+  "PUZZLING",
   "ACTUALLY",
   "1234567?",
   "EXPECTED",
@@ -167,8 +168,12 @@ function drawFromDataObject(x, y, s, obj) {
   pop();
 }
 
+var curLetterPos = 0;
+var InterPOS = 0;
+
 function computeCurrentChosenChar(n) {
   // now figure out what object to draw
+  curLetterPos = n;
   var obj;
   if (chosenIsAnimating[n]) {
     if(chosenCurAnimationFrame[n] < 0) {
@@ -219,6 +224,7 @@ function draw () {
   var w2 = width - 2 * o
   var h2 = height - 2 * o
   for(var i=0; i<8; i++) {
+
     // see if animation should be turned off
     if(chosenIsAnimating[i] && chosenCurAnimationFrame[i] >= chosenNumAnimationFrames) {
       chosenIsAnimating[i] = false;
@@ -228,6 +234,7 @@ function draw () {
       chosenCurAnimationFrame[i] = chosenCurAnimationFrame[i] + 1;
     }
     var obj = computeCurrentChosenChar(i);
+    InterPOS = i;
     drawFromDataObject(o + i*w2/8.0, o + h2/2.0 - 120, 1.0, obj)
   }
 }
