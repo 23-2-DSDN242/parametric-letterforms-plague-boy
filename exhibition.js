@@ -36,6 +36,7 @@ let secondsPerWord = 8;
 let curSwapWord = 0;
 
 var defaultSwapWords = [
+  "PUZZLING",
   "ACTUALLY",
   "1234567?",
   "EXPECTED",

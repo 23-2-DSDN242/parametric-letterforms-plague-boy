@@ -1,11 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/xQz3oEP8)
 ## MDDN 242 2024 Assignment 2
 
-(Replace this README with information about your alphabet. This is an example.)
+Typeface: Puzzling
+Campbell Smith
 
-Each of my letters is composed with two circles. The size and position of the first circle is fixed, but the location and size of the second circle is controlled by three parameters.
+My overall design is inspired by the bachaus moveent, I wanted to create a type that used limited shapes, linework, and colours. 
 
-The three parameters per letter:
-  * `size` : radius of the second circle
-  * `offsetx` : x offset of the second circle relative to the first one
-  * `offsety` : y offset of the second circle relative to the first one
+This basic design allowed me to focus on the interpolation element, whicch is more inspired by the introductory credits of monsters inc, I wanted to feature a simple and intertwining linework animation, with a more large colour block. The use of lerp colour in the exhibition section, allowed further variation in my interpolation.
+
+If I were to redo this project, I'd add one for element or shape to the base, potentially a circle, which would allow an even more hypnotizing interpolation between shapes.

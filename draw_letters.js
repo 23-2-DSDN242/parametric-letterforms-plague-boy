@@ -168,6 +168,7 @@ if (percent > 80 && percent <= 100) {
 }
 
 var swapWords = [
+  "PUZZLING",
   "ABBAABBA",
   "CAB?CAB?",
   "BAAAAAAA"
