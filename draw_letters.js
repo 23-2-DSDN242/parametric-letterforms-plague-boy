@@ -33,7 +33,7 @@ function drawLetter(letterData) {
 
   noStroke();
   if (typeof curLetterPos !== 'undefined') {
-    let darkNess = map(curLetterPos, 0, 7, 0, .8);
+    let darkNess = map(curLetterPos, 0, 7, 0, .7);
     let interCO = lerpColor(red1, red2, darkNess)
     fill(interCO);  
   } else {
