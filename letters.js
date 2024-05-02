@@ -1,18 +1,22 @@
 const alphabet = {
-  "default": {
+  "default": { //Center Positon
     "offsetx1": 0,
     "offsety1": -50,
     "offsetx2": 70,
-    "offsety2": -112,
+    "offsety2": -108,
 
-    "offsetx3": 66,
-    "offsety3": 150,
-    "offsetx4": 66,
-    "offsety4": 28,
+    "offsetx3": 70,
+    "offsety3": -6,
+    "offsetx4": 32,
+    "offsety4": -37,
 
-    "offsetx5": 32,
-    "offsety5": 0
-  
+    "offsetx5": 0,
+    "offsetx52": 0,
+
+    "offsety5": 170,
+    "offsety52": 200,
+
+    "ColourCode": 0
   },
   "A" : {
     "offsetx1": 70,
@@ -26,7 +30,12 @@ const alphabet = {
     "offsety4": -30, 
 
     "offsetx5": 35,
-    "offsety5": 0
+    "offsetx52": 35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "B" : {
     "offsetx1": 39,
@@ -40,7 +49,11 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -15,
-    "offsety5": 0
+    "offsetx52": -15,
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "C" : {
     "offsetx1": 42,
@@ -54,7 +67,11 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -15,
-    "offsety5": 0
+    "offsetx52": -15,
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "D": {
     "offsetx1": 69,
@@ -68,7 +85,11 @@ const alphabet = {
     "offsety4": -150,
 
     "offsetx5": -27,
-    "offsety5": 0
+    "offsetx52": -27,
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "E": {
     "offsetx1": 60,
@@ -82,21 +103,31 @@ const alphabet = {
     "offsety4": -20,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "F": {
-    "offsetx1": 15,
+    "offsetx1": 0,
     "offsety1": -50,
-    "offsetx2": 70,
-    "offsety2": -130,
+    "offsetx2": 0,
+    "offsety2": 50,
 
-    "offsetx3": 13,
-    "offsety3": -24,
-    "offsetx4": 66,
-    "offsety4": -104,
+    "offsetx3": 35,
+    "offsety3": 20,
+    "offsetx4": 35,
+    "offsety4": -100,
 
-    "offsetx5": -35,
-    "offsety5": 0
+    "offsetx5": -2,
+    "offsetx52": 35,
+
+    "offsety5": 28,
+    "offsety52": 0,
+
+    "ColourCode": 0.75
   },
   "G": {
     "offsetx1": 44,
@@ -110,7 +141,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -15,
-    "offsety5": 0
+    "offsetx52": -15,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "H": {
     "offsetx1": 70,
@@ -123,7 +159,12 @@ const alphabet = {
     "offsety4": -40,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "I": {
     "offsetx1": 70,
@@ -136,7 +177,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "J": {
     "offsetx1": 50,
@@ -150,7 +196,13 @@ const alphabet = {
     "offsety4": 6,
 
     "offsetx5": 35,
-    "offsety5": 0
+    "offsetx52": 35,
+
+    "offsety5": 0,
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "K": {
     "offsetx1": 70,
@@ -164,7 +216,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "L": {
     "offsetx1": 31,
@@ -178,7 +235,12 @@ const alphabet = {
     "offsety4": 26,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "M": {
     "offsetx1": 0,
@@ -191,7 +253,12 @@ const alphabet = {
     "offsety4": -150,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "N": {
     "offsetx1": 0,
@@ -204,7 +271,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "O": {
     "offsetx1": 52,
@@ -217,7 +289,11 @@ const alphabet = {
     "offsety4": -78,
 
     "offsetx5": -15,
-    "offsety5": 0
+    "offsetx52": -15,
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "P": {
     "offsetx1": 0,
@@ -230,7 +306,12 @@ const alphabet = {
     "offsety4": -20,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "Q": {
     "offsetx1": 26,
@@ -243,20 +324,30 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "R": {
-    "offsetx1": 70,
+    "offsetx1": 0,
     "offsety1": -50,
-    "offsetx2": 69, //(Haha Nice)
-    "offsety2": -75,
-    "offsetx3": 69,
+    "offsetx2": 0,
+    "offsety2": 50,
+    "offsetx3": 70,
     "offsety3": 150,
-    "offsetx4": 48,
-    "offsety4": -76,
+    "offsetx4": 31,
+    "offsety4": -68,
 
-    "offsetx5": -19,
-    "offsety5": 0
+    "offsetx5": -2,
+    "offsetx52": 35,
+
+    "offsety5": 0,
+    "offsety52": 80,
+
+    "ColourCode": 0.75
   },
   "S": {
     "offsetx1": 70,
@@ -269,7 +360,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "T": {
     "offsetx1": 4,
@@ -282,7 +378,12 @@ const alphabet = {
     "offsety4": -116,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52":0,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "U": {
     "offsetx1": 70,
@@ -295,7 +396,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "V": {
     "offsetx1": 70,
@@ -308,7 +414,12 @@ const alphabet = {
     "offsety4": -150,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "W": {
     "offsetx1": 0,
@@ -321,7 +432,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": -35,
-    "offsety5": 0
+    "offsetx52": -35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "X": {
     "offsetx1": 0,
@@ -329,12 +445,17 @@ const alphabet = {
     "offsetx2": 70,
     "offsety2": 50,
     "offsetx3": 0,
-    "offsety3": -50,
+    "offsety3": 150,
     "offsetx4": 70,
-    "offsety4": 50,
+    "offsety4": -150,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 142,
+    "offsety52": 60,
+
+    "ColourCode": 0.75
   },
   "Y": {
     "offsetx1": 0,
@@ -347,7 +468,12 @@ const alphabet = {
     "offsety4": -50,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 70,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "Z": {
     "offsetx1": 0,
@@ -360,20 +486,30 @@ const alphabet = {
     "offsety4": 0,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "0": {
-    "offsetx1": 55,
+    "offsetx1": 75,
     "offsety1": 150,
-    "offsetx2": 52,
+    "offsetx2": 0,
     "offsety2": -150,
-    "offsetx3": 23,
-    "offsety3": -36,
-    "offsetx4": 54,
-    "offsety4": 32,
+    "offsetx3": 36,
+    "offsety3": -24,
+    "offsetx4": 37,
+    "offsety4": 24,
 
-    "offsetx5": -13,
-    "offsety5": 0
+    "offsetx5": -35,
+    "offsetx52": 35,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "1": {
     "offsetx1": 0,
@@ -386,20 +522,30 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "2": {
     "offsetx1": 0,
-    "offsety1": 2,
-    "offsetx2": 16,
+    "offsety1": -26,
+    "offsetx2": 70,
     "offsety2": -150,
-    "offsetx3": 29,
-    "offsety3": 126,
-    "offsetx4": 70,
+    "offsetx3": 70,
+    "offsety3": -50,
+    "offsetx4": 0,
     "offsety4": 50,
 
-    "offsetx5": -7,
-    "offsety5": 0
+    "offsetx5": -35,
+    "offsetx52": 35,
+
+    "offsety5": 170,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "3": {
     "offsetx1": 22,
@@ -412,7 +558,12 @@ const alphabet = {
     "offsety4": -56,
 
     "offsetx5": 17,
-    "offsety5": 0
+    "offsetx52": 17,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "4": {
     "offsetx1": 0,
@@ -425,7 +576,12 @@ const alphabet = {
     "offsety4": -50,
 
     "offsetx5": 12,
-    "offsety5": 0
+    "offsetx52": 12,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.25
   },
   "5": {
     "offsetx1": 70,
@@ -438,7 +594,12 @@ const alphabet = {
     "offsety4": 50,
 
     "offsetx5": 0,
-    "offsety5": 0
+    "offsetx52": 0,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "6": {
     "offsetx1": 43,
@@ -451,20 +612,30 @@ const alphabet = {
     "offsety4": -28,
 
     "offsetx5": -21,
-    "offsety5": 0
+    "offsetx52": -21,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   },
   "7": {
     "offsetx1": 0,
     "offsety1": -50,
-    "offsetx2": 65,
-    "offsety2": -132,
-    "offsetx3": 70,
-    "offsety3": -32,
-    "offsetx4": 70,
+    "offsetx2": 55,
+    "offsety2": -128,
+    "offsetx3": 60,
+    "offsety3": -28,
+    "offsetx4": 41,
     "offsety4": 50,
 
-    "offsetx5": 35,
-    "offsety5": 0
+    "offsetx5": -35,
+    "offsetx52": 35,
+
+    "offsety5": 58,
+    "offsety52": 76,
+
+    "ColourCode": 0.25
   },
   "8": {
     "offsetx1": 52,
@@ -477,7 +648,12 @@ const alphabet = {
     "offsety4": -50,
 
     "offsetx5": -17,
-    "offsety5": 0
+    "offsetx52": -17,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.5
   },
   "9": {
     "offsetx1": 37,
@@ -490,7 +666,12 @@ const alphabet = {
     "offsety4": -50,
 
     "offsetx5": 33,
-    "offsety5": 0
+    "offsetx52": 33,
+
+    "offsety5": 0,
+    "offsety52": 200,
+
+    "ColourCode": 0.75
   }
 
 }

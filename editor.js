@@ -18,7 +18,12 @@ const sliderInfo = [
   ["offsety4", -150, 50],
 
   ["offsetx5",  -35,  35],
-  ["offsety5", 0, 0]
+  ["offsetx52", -35, 35],
+
+  ["offsety5", 0 , 200],
+  ["offsety52", 0,200],
+
+  ["ColourCode", 0, 109],
 
 ];
 
